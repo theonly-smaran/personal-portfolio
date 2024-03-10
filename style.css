@@ -1,0 +1,203 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+#before-dom .custom-color {
+    background-color: #74a4f7;
+    background-image: linear-gradient(45deg, #509afa, #9750fa);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size:30px;
+    margin-left:400px;
+    font-weight: 600;
+}
+#before-dom .contact-href {
+    background-image: linear-gradient(45deg, #509afa, #9750fa);
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    color:white !important;
+    font-weight:650;
+    margin-right: 400px;
+    transition: ease 600ms;
+}
+#before-dom .contact-href:hover {
+    color:rgb(28, 28, 28) !important;
+}
+.typewriter-animation h1 {
+    background-image: linear-gradient(45deg, #509afa, #9750fa);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-weight: 700;
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+    transition: ease 1000ms;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+#before-dom #home {
+    position: relative;
+    margin-top:300px;
+    border-style:solid;
+    border-width: 10px;
+    width:30%;
+    left:35%;
+    padding:20px 0px 20px 0px;
+    border-radius:20px;
+}
+#before-dom .nav-theme-color a {
+    color:#9750fa;
+    font-weight:480;
+}
+#before-dom #home p {
+    color:#9750fa;
+    font-weight:500;
+    text-align: center;
+    margin-top:20px;
+    padding: 0px 15px 0px 15px;
+}
+#before-dom #gospel .gospel-header {
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(45deg, #509afa, #9750fa);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    width:40%;
+    left:30%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    font-size:70px;
+    font-weight: 700;
+    margin-top:200px;
+    transition: ease-out 500ms;
+}
+#before-dom #gospel .gospel-header:hover {
+    font-size:75px;
+    font-weight: 800;
+}
+#before-dom #gospel .gospel-header:before {
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background:#9750fa;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+#before-dom #gospel .gospel-header:after {
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: #9750fa;;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+#before-dom #gospel-info {
+    color:#9750fa;
+    font-weight:600;
+    margin-top:50px;
+    display: flex;
+}
+#before-dom #gospel-info .verse-info {
+    padding: 0px 100px 0px 100px;
+}
+#before-dom #gospel-info .youtube-video {
+    margin-right:200px;
+}
+#before-dom #gospel-info .facebook-post {
+    margin-right:100px;
+}
+#before-dom footer {
+    margin-top:150px;
+    color:#242424;
+    text-align: center;
+}
+#before-dom footer p {
+    font-weight: 600;
+}
+#before-dom footer h6, span {
+    font-size:25px;
+    margin-bottom:50px;
+}
+#before-dom footer span {
+    margin-left:40px;
+}
+#before-dom footer a {
+    text-decoration: none;
+    color:#242424;
+    transition: ease 600ms;
+}
+#before-dom footer span a:hover {
+    text-decoration: none;
+    color:#1a1a1a;
+    font-size:27px;
+}
+#before-dom footer span img {
+    padding-top:10px;
+}
+#before-dom footer h6 a:hover {
+    text-decoration: none;
+    color:#1a1a1a;
+    font-size:27px;
+}
+#before-dom #contact .contact-header {
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(45deg, #509afa, #9750fa);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    width:40%;
+    left:30%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    font-size:70px;
+    font-weight: 700;
+    margin-top:200px;
+    transition: ease-out 500ms;
+}
+#before-dom #contact .contact-header:hover {
+    font-size:75px;
+    font-weight: 800;
+}
+#before-dom #contact .contact-header:before {
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background:#9750fa;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+#before-dom #contact .contact-header:after {
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: #9750fa;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
